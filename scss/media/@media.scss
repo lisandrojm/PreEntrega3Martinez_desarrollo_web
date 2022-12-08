@@ -1,13 +1,4 @@
 @media (min-width: 768px) {
-  .section__1__img {
-    padding-top: 0;
-  }
-  .section__1 {
-    background-image: none;
-  }
-  .section__3 {
-    background-image: none;
-  }
   .body {
     background-image: url(../assets/img/background.jpg);
     background-position: center;
@@ -17,6 +8,15 @@
     font-family: $font-family;
     height: 100vh;
     overflow-x: hidden;
+  }
+  .section__1 {
+    background-image: none;
+  }
+  .section__1__img {
+    padding-top: 0;
+  }
+  .section__3 {
+    background-image: none;
   }
 }
 @media (min-width: 1200px) {
