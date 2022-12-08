@@ -32,7 +32,8 @@
   background-color: rgba(255, 79, 198, 0.3) !important; }
 
 .body {
-  background-color: #0f0f36;
+  background-color: #080822;
+  background-image: url(../assets/img/background.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -101,9 +102,6 @@
   border: 0 !important; }
 
 .section__1 {
-  background-image: url(../assets/img/background_mobile_s1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
   color: #ced3fc; }
   .section__1__h1 {
     color: #ffffff;
@@ -187,8 +185,6 @@
     color: #ced3fc; }
 
 .section__3 {
-  background-image: url(../assets/img/background_mobile.jpg);
-  background-position: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center; }
@@ -242,24 +238,8 @@
     font-weight: bold; }
 
 @media (min-width: 768px) {
-  .body {
-    background-image: url(../assets/img/background.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: OpenSans, sans-serif;
-    height: 100vh;
-    overflow-x: hidden; }
-
-  .section__1 {
-    background-image: none; }
-
   .section__1__img {
-    padding-top: 0; }
-
-  .section__3 {
-    background-image: none; } }
+    padding-top: 0; } }
 @media (min-width: 1200px) {
   .section__1__h1 {
     font-size: 5rem; }

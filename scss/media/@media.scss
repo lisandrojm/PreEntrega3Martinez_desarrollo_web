@@ -1,22 +1,6 @@
 @media (min-width: 768px) {
-  .body {
-    background-image: url(../assets/img/background.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: $font-family;
-    height: 100vh;
-    overflow-x: hidden;
-  }
-  .section__1 {
-    background-image: none;
-  }
   .section__1__img {
     padding-top: 0;
-  }
-  .section__3 {
-    background-image: none;
   }
 }
 @media (min-width: 1200px) {
