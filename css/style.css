@@ -28,9 +28,13 @@
 .btn {
   border: 0 !important; }
 
+.btn-sm__limpiar {
+  background-color: rgba(255, 79, 198, 0.3) !important; }
+
 .body {
   background-color: #041250;
-  background-image: url(../assets/img/background.jpg);
+  background-color: red;
+  /*   background-image: url(../assets/img/background.jpg); */
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
