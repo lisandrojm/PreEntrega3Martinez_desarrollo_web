@@ -1,0 +1,28 @@
+.section__1 {
+  color: #ced3fc;
+  &__h1 {
+    color: $font-light;
+    font-size: 3.1rem;
+  }
+  &__h1--views {
+    color: $font-light;
+  }
+  &__h4--views {
+    color: $font-light;
+  }
+  &__p {
+    color: $font-freak;
+  }
+  &__img {
+    padding: 1rem;
+    transition: transform 0.3s;
+    &:hover,
+    &:focus {
+      opacity: 0.65;
+      transform: scale(1.03);
+    }
+  }
+  /*   &__article {
+    color: #ced3fc;
+  } */
+}
