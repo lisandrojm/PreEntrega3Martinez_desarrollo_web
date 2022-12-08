@@ -42,7 +42,7 @@
 
 .reveal-text {
   --animation-delay: var(--delay, 0);
-  --animation-duration: var(--duration, 800ms);
+  --animation-duration: var(--duration, 1000ms);
   --animation-iterations: var(--iterations, 1);
   position: relative;
   animation-name: clip-text;

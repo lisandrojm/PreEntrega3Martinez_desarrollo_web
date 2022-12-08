@@ -43,6 +43,17 @@
   height: 100vh;
   overflow-x: hidden; }
 
+.body {
+  --s: 222px;
+  /* control the size */
+  --_g: #090050 10%, #40357e 10.5% 19%, #0000 19.5% 80.5%, #40357e 81% 89.5%, #09003c 90%;
+  --_c: from -90deg at 37.5% 50%, #0000 75%;
+  --_l1: linear-gradient(145deg, var(--_g));
+  --_l2: linear-gradient(35deg, var(--_g));
+  background: var(--_l1), var(--_l1) calc(var(--s) / 2) var(--s), var(--_l2), var(--_l2) calc(var(--s) / 2) var(--s), conic-gradient(var(--_c), #090050 0) calc(var(--s) / 8) 0, conic-gradient(var(--_c), #09003c 0) calc(var(--s) / 2) 0, linear-gradient(90deg, #09003c 38%, #090050 0 50%, #09003c 0 62%, #090050 0);
+  background-size: var(--s) calc(2 * var(--s) / 3);
+  background-attachment: fixed; }
+
 #site-header {
   font-size: 17px;
   position: fixed;
@@ -134,7 +145,7 @@
 
 .reveal-text {
   --animation-delay: var(--delay, 0);
-  --animation-duration: var(--duration, 800ms);
+  --animation-duration: var(--duration, 1000ms);
   --animation-iterations: var(--iterations, 1);
   position: relative;
   animation-name: clip-text;
